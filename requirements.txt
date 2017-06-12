@@ -1,0 +1,4 @@
+sklearn
+fasttext
+nltk
+tweepy
