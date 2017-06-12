@@ -19,4 +19,5 @@ def get_config():
             conf.write(configfile)
         exit(1)
 
-    return conf.read(CONF_PATH)
+    conf.read(CONF_PATH)
+    return conf
