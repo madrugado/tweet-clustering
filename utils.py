@@ -5,7 +5,7 @@ CONF_PATH = "config.ini"
 URL_LIST_PATH = "url_list.txt"
 LAST_IDS_JSON = "last_ids.json"
 TWEETS_PATH = "tweet.csv"
-MODEL_PATH = "wiki.simple.vec"
+MODEL_PATH = "wiki.simple.bin"
 
 
 def get_config():
