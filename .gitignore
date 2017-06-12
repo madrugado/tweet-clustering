@@ -56,3 +56,5 @@ ENV/
 *.ini
 *.vec
 *.bin
+*.zip
+*.csv
