@@ -58,3 +58,4 @@ ENV/
 *.bin
 *.zip
 *.csv
+*.json
