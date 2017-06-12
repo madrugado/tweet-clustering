@@ -59,3 +59,6 @@ ENV/
 *.zip
 *.csv
 *.json
+clusters/*
+!clusters/.gitkeep
+enwik8
