@@ -5,6 +5,7 @@ import os
 
 import tweepy
 import csv
+from tqdm import tqdm
 
 from utils import get_config
 from utils import URL_LIST_PATH, LAST_IDS_JSON, TWEETS_PATH
@@ -71,7 +72,8 @@ if __name__ == '__main__':
 
     last_ids = get_name_and_last_id()
     new_last_ids = {}
-    for name, last_id in last_ids.items():
+    print("Getting new tweets...")
+    for name, last_id in tqdm(last_ids.items()):
         new_last_id = get_new_tweets(name, last_id)
         new_last_ids[name] = new_last_id
 
